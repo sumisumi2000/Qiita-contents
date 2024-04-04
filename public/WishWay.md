@@ -6,7 +6,7 @@ tags:
   - 未経験
   - 個人開発
 private: false
-updated_at: '2024-04-04T16:32:43+09:00'
+updated_at: "2024-04-04T16:32:43+09:00"
 id: 9e5184c7f5616961e5e2
 organization_url_name: null
 slide: false
@@ -49,11 +49,11 @@ https://x.com/U_Nbjj/status/1761374237187772535?s=20
 
 ![](https://i.gyazo.com/d5e860afe52439a66782639b0beb77e7.jpg)
 
-###### サービス URL（レスポンシブ対応済）
+### サービス URL（レスポンシブ対応済）
 
 https://wishway.onrender.com
 
-###### GitHub
+### GitHub
 
 https://github.com/sumisumi2000/WishWay
 
