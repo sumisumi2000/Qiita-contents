@@ -6,7 +6,7 @@ tags:
   - デプロイ
   - Render.com
 private: false
-updated_at: '2024-04-28T03:46:08+09:00'
+updated_at: '2024-06-27T14:53:00+09:00'
 id: 87fe50fa77af27afde16
 organization_url_name: null
 slide: false
@@ -367,7 +367,7 @@ https://zenn.dev/tet0h/articles/a92651d52bd82460aefb
 
     <details><summary>切り替えられない場合</summary>
 
-   [`rails new` で rails アプリを作成](#rails-new-で-rails-アプリを作成)で作成したディレクトリに移動して`rbenv global` の代わりに `rbenv local` を試してみてください（M2 の Macbook で確認）
+   [`rails new` で rails アプリを作成](#rails-new-で-rails-アプリを作成)で作成したディレクトリに移動して`rbenv global` の代わりに `rbenv local` を試してみてください（M2 チップ の Macbook で確認）
 
    - `global` → 全てのディレクトリ
    - `local` → 直下のディレクトリ
@@ -545,7 +545,7 @@ https://qiita.com/jnchito/items/e4872ff5c70a4c2219f1
      # ログがいっぱい出ます
      ```
 
-   - TailwindCSS を使用する方（未検証）
+   - TailwindCSS を使用する方
 
      - `--css=tailwind` オプションをつけてください
 
@@ -553,7 +553,7 @@ https://qiita.com/jnchito/items/e4872ff5c70a4c2219f1
        $ rails new myapp --database=postgresql --css=tailwind
        ```
 
-   - esbuild を使用する方（未検証）
+   - esbuild を使用する方
 
      - `--javascript=esbuild` オプションをつけてください
 
@@ -991,8 +991,12 @@ https://docs.render.com/deploy-rails
 # データベース連携（必要な方のみ）
 
 :::note warn
-Render が提供している無料の PostgreSQL は 90 日間限定です。
+Render が提供している無料の PostgreSQL は ~~90~~ 30 日間限定です。
 期限切れから、2 週間の猶予期間を過ぎるとデータベースが削除されます。
+
+※2024/06/27 追記
+2024/06/20 以降に作成するデータベースの無料期間は 30 日限定に変更となりました。
+2024/06/20 以前に作成したデータベースの無料期間は 90 日のまま変更はないようです。
 :::
 
 https://docs.render.com/free#free-postgresql
@@ -1237,14 +1241,18 @@ https://qiita.com/sami_0085/items/da68c9e0ef92a94f4d8a
 ### Homebrew のコマンド
 
 - `brew list` インストールされてる一覧を表示
+
   ```bash
   $ brew list
   ==> Formulae
   autoconf	ca-certificates	gettext		git		icu4c		krb5		libyaml		lz4		m4		openssl@3	pcre2		pkg-config	postgresql@14	rbenv		readline	ruby-build
   ```
+
 - `brew uninstall アンインストールするものの名前`
 
 https://www.kikagaku.co.jp/kikagaku-blog/homebrew-install-howto/#i-9
+
+https://zenn.dev/mary_pp/articles/88bd26f15317c6
 
 # 終わりに
 
