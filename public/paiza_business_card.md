@@ -1,11 +1,11 @@
 ---
 title: paiza×Qiita Bランク 名刺バインダー管理を解いてみた
 tags:
-  - paiza
   - Ruby
+  - paiza
 private: true
-updated_at: ""
-id: null
+updated_at: '2024-08-04T01:52:40+09:00'
+id: fbe22248dd921a5d6a0f
 organization_url_name: null
 slide: false
 ignorePublish: false
