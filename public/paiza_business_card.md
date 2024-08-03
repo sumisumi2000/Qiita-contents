@@ -95,7 +95,7 @@ https://docs.ruby-lang.org/ja/latest/method/String/i/split.html
 
 https://docs.ruby-lang.org/ja/latest/method/Array/i/collect.html
 
-https://docs.ruby-lang.org/ja/3.1/doc/spec=2foperator.html#multiassign
+https://docs.ruby-lang.org/ja/latest/doc/spec=2foperator.html#multiassign
 
 ##### 何枚目のファイルに m 番目の名刺が入っているかを計算
 
