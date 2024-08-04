@@ -4,7 +4,7 @@ tags:
   - Ruby
   - paiza
 private: true
-updated_at: '2024-08-04T01:52:40+09:00'
+updated_at: "2024-08-04T01:52:40+09:00"
 id: fbe22248dd921a5d6a0f
 organization_url_name: null
 slide: false
@@ -22,7 +22,7 @@ paiza が面白そうなキャンペーンを行っていたのでやってみ�
 今回は[名刺バインダー管理](https://paiza.jp/works/mondai/b_rank_skillcheck_archive/name_card)を解いてみました。
 表裏に名刺を入れられるファイルが存在し、1 つのファイルには n 個のポケットがついています。
 （1 つのファイルには 2n 枚の名刺を収納できる）
-そのファイルの m 番目の名刺の裏の番号を求めよという問題です。
+そのファイルに収納されている m 番目の名刺の裏の番号を求めよという問題です。
 
 ### コードを書く前に考えたこと
 
